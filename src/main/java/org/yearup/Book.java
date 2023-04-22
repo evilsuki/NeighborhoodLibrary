@@ -80,7 +80,7 @@ public class Book
         {
             checkedOutTo = name;
             isCheckedOut = true;
-        }
 
+        }
     }
 }
