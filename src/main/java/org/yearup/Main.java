@@ -108,8 +108,8 @@ public class Main
         System.out.println("--------------------------------------------------------------------------------------------------");
         System.out.println();
         System.out.println("Please select the follow options");
-        System.out.println("C - to Check Out a book");
-        System.out.println("X - to go back to the Home screen");
+        System.out.println("C - To Check Out a book");
+        System.out.println("X - To go back to the Home screen");
         System.out.print("Enter your selection: ");
         String option = scanner.nextLine().strip();
 
@@ -146,8 +146,8 @@ public class Main
         System.out.println("--------------------------------------------------------------------------------------------------");
         System.out.println();
         System.out.println("Please select the follow options");
-        System.out.println("C - to Check In a book");
-        System.out.println("X - to go back to the Home screen");
+        System.out.println("C - To Check In a book");
+        System.out.println("X - To go back to the Home screen");
         System.out.print("Enter your selection: ");
         String option = scanner.nextLine().strip();
 
