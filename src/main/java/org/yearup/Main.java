@@ -113,11 +113,11 @@ public class Main
         System.out.print("Enter your selection: ");
         String option = scanner.nextLine().strip();
 
-        if(option.equalsIgnoreCase("c") || option.equalsIgnoreCase("C"))
+        if(option.equalsIgnoreCase("c"))
         {
             displayCheckOutBook();
         }
-        else if (option.equalsIgnoreCase("X") || option.equalsIgnoreCase("x"))
+        else if (option.equalsIgnoreCase("X"))
         {
             displayHomeScreen();
         }
@@ -151,11 +151,11 @@ public class Main
         System.out.print("Enter your selection: ");
         String option = scanner.nextLine().strip();
 
-        if(option.equalsIgnoreCase("C") || option.equalsIgnoreCase("c"))
+        if(option.equalsIgnoreCase("C"))
         {
             displayCheckInBook();
         }
-        else if (option.equalsIgnoreCase("X") || option.equalsIgnoreCase("x"))
+        else if (option.equalsIgnoreCase("X"))
         {
             displayHomeScreen();
         }
